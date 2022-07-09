@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotcut icon" href="../assets/img/Logo.PNG">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Laguarida del Duelista - Contacto</title>
+</head>
+
+<body>
+    <header id="arriba">
+        <section class="banner">
+            <div class="banner__logo">
+                <img src="../assets/img/LogoLGDD.png" alt="Logo de la Guarida del Duelista">
+            </div>
+            <div class="banner__img">
+                <img src="../assets/img/banner2.gif" alt="Imagen D&D, Magic, Yu-gi-oh!">
+            </div>
+        </section>
+        <nav>
+            <ul class="menusuperior">
+                <li><a class="menusuperior__link" href="../index.html">Inicio</a></li>
+                <li><a class="menusuperior__link" href="nuestros_productos.html">Nuestros Productos</a></li>
+                <li><a class="menusuperior__link" href="torneos_y_eventos.html">Torneos y Eventos</a></li>
+                <li><a class="menusuperior__link" href="clasificacion_torneos.html">Clasificación Torneos</a>
+                </li>
+                <li><a class="menusuperior__link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--contenido principal o de relevancia. La imagen de fondo la agrego en css-->
+    <main>
+        <h1>Inicio > Contacto</h1>
+        <section>
+            <ul>
+                <li> Visitanos en nuestra tienda:
+                    Av. Presidente Perón 1805,
+                    Villa Mercedes (San Luis) AR
+                </li>
+                <li> Horarios:
+                    Martes a Viernes de 10 a 20 hs.
+                    Sábados y Domingos de 15 a 20 hs.
+                </li>
+                <li> Teléfono:
+                    2657-714203
+                </li>
+            </ul>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.788006195089!2d-65.44900478595194!3d-33.66265448071363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d16a5c91eb20b7%3A0x5d71b66e4a25428f!2sPres.%20Juan%20Domingo%20Per%C3%B3n%201805%2C%20Villa%20Mercedes%2C%20San%20Luis%2C%20Argentina!5e0!3m2!1ses-419!2snz!4v1654669495586!5m2!1ses-419!2snz"
+                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- size agregado a modo visual, luego sera modificado con css -->
+            <div>
+                <img src="../assets/img/fotodelatienda.jpeg" alt="Foto de la Tienda" width="300" height="400">
+            </div>
+        </section>
+        <form action="#">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <input type="email" name="correo" id="correo" placeholder="Email" required>
+            <input type="text" name="num" id="num" placeholder="Teléfono" required>
+            <!--Menu desplegable-->
+            <select name="motivo" id="motivo">
+                <option value="">Motivo del mensaje</option>
+                <option value="a">Solicitar inscripción a Torneo</option>
+                <option value="b">Solicitar inscripción a Entrenamiento</option>
+                <option value="c">Compra de productos</option>
+                <option value="d">Consulta</option>
+                <option value="e">Otro</option>
+            </select>
+            <!--Checkbox-->
+            <input type="checkbox" name="cbox"> Deseo recibir el Newsletter
+            <!--Texarea-->
+            <textarea name="comentario" id="comentario" cols="60" rows="10" minlength="10"
+                placeholder="Escribe tu mensaje"></textarea>
+            <input type="reset" value="Limpiar mensaje">
+            <input type="submit" value="Enviar mensaje">
+        </form>
+        <a href="#arriba" class="linktop">Ir arriba</a>
+    </main>
+
+    <!--pie de pagina con links de redes sociales-->
+    <footer>
+        <div class="division1">
+            <div class="letrero"></div>
+            <ul>
+                <li>&#9735; Av. Presidente Perón 1805, Villa Mercedes (SL) 🇦🇷</li>
+                <li>&#9743; 2657-714203</li>
+                <li>&#9993; LaGuaridaDelDuelista@gmail.com</li>
+            </ul>
+        </div>
+        <div class="division2">
+            <ul class="iconosRedes">
+                <li><a href="https://web.whatsapp.com/" target="_blank"><span class="iconify"
+                            data-icon="ri:whatsapp-fill" data-width="35"></span></a>
+                </li>
+                <li><a href="https://www.instagram.com/laguaridadelduelista/?hl=es" target="_blank"><span
+                            class="iconify" data-icon="entypo-social:instagram" data-width="35"></span></a></li>
+                <li><a href="https://www.facebook.com/LaGuaridaDelDuelista" target="_blank"><span class="iconify"
+                            data-icon="entypo-social:facebook" data-width="35"></span></span></a></li>
+                <li><a href="https://www.twitch.tv/" target="_blank"><span class="iconify"
+                            data-icon="akar-icons:twitch-fill" data-width="35"></span></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><span class="iconify"
+                            data-icon="entypo-social:youtube" data-width="35"></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="division3">
+            <h3>Horarios</h3>
+            <p>Martes a Viernes de 10 a 20 hs.</p>
+            <p>Sábados y Domingos de 15 a 20 hs.</p>
+        </div>
+    </footer>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>
