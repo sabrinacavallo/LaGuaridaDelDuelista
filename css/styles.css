@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
-
-/* variables */
-:root {
-    /* colores */
-    --backgroun: #1d0304;
-    --background-secondary: #752e2ea1;
-    --text-color: #ffffff;
-
-    /* espacios */
-    --spacing-large: 6rem;
-    --spacing-medium: 2.4rem;
-    --spacing-small: 2rem;
-    --spacing-xsmall: 1rem;
-
-    /* font-family */
-    --font-principal: 'Kdam Thmor Pro', sans-serif;
-
-    /* font-Sizes */
-    --text-large: 5.2em;
-    --text-medium: 2.2em;
-    --text-base: 1.6em;
-    --text-small: 1.4em;
-}
-
-*::after,
-*::before,
 * {
     margin: 0;
     padding: 0;
@@ -37,9 +11,9 @@ html {
 }
 
 body {
-    font-family: var(--font-principal);
-    background-color: var(--backgroun);
-    color: var(--text-color);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #1d0304;
+    color: #ffffff;
 }
 
 ul {
@@ -48,7 +22,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: #ffffff;
 }
 
 img {
@@ -77,24 +51,24 @@ img {
 
 nav {
     background-color: black;
-    padding: var(--spacing-small);
+    padding: 2rem;
 }
 
 .menusuperior {
     justify-content: center;
     display: flex;
-    gap: var(--spacing-large);
+    gap: 6rem;
 }
 
 .menusuperior__link {
-    font-size: var(--text-small);
-    padding: var(--spacing-xsmall) 1.2rem;
+    font-size: 1.4em;
+    padding: 1rem 1.2rem;
     border: 2px solid black;
     transition: all 1s;
 }
 
 .menusuperior__link:hover {
-    border-color: var(--text-color);
+    border-color: #ffffff;
 }
 
 
@@ -110,7 +84,7 @@ main {
 }
 
 h1 {
-    padding: var(--spacing-small);
+    padding: 2rem;
 }
 
 
@@ -138,20 +112,20 @@ h1 {
 }
 
 .cuadros__cuadro h2 {
-    font-size: var(--spacing-medium);
-    padding: var(--spacing-large)
+    font-size: 2.4rem;
+    padding: 6rem;
 }
 
 .cuadros__cuadro p {
-    font-size: var(--text-small);
-    margin-bottom: var(--spacing-xsmall);
+    font-size: 1.4em;
+    margin-bottom: 1rem;
 }
 
 .cuadros__cuadro {
-    background-color: var(--background-secondary);
+    background-color: #752e2ea1;
     text-align: center;
     margin: 4rem;
-    padding: var(--spacing-medium)
+    padding: 2.4rem;
 }
 
 .logo{
@@ -209,22 +183,22 @@ h1 {
 .productos__cuadro {
     display: flex;
     flex-direction: column;
-    background-color: var(--background-secondary);
+    background-color: #752e2ea1;
     text-align: center;
     margin: 4rem;
-    padding: var(--spacing-medium)
+    padding: 2.4rem;
 }
 
 .productos__cuadro--img {
-    padding: var(--spacing-medium);
+    padding: 2.4rem;
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .productos__cuadro--titulo {
-    font-size: var(--text-small);
-    padding: var(--spacing-small);
+    font-size: 1.4em;
+    padding: 2rem;
 }
 
 
@@ -233,7 +207,7 @@ h1 {
 footer {
     background-color: rgb(29, 3, 4);
     display: flex;
-    font-size: var(--text-base);
+    font-size: 1.6em;
     height: 25rem;
 }
 
@@ -279,35 +253,35 @@ footer div ul li {
 
     /* header */
     .menusuperior {
-        gap: var(--spacing-xsmall);
+        gap: 1rem;
     }
 
     /* ---HOME--- */
     /* main */
     .cuadros__cuadro h2 {
-        font-size: var(--text-medium);
-        padding: var(--spacing-small);
+        font-size: 2.4rem;
+        padding: 2rem;
     }
 
     /* ---NUESTROS PRODUCTOS--- */
     /* main */
     .productos__cuadro {
-        margin: var(--spacing-small);
-        padding: var(--spacing-small)
+        margin: 2rem;
+        padding: 2rem;
     }
 
     .productos__cuadro--img {
-        padding: var(--spacing-small);
+        padding: 2rem;
     }
 
     .productos__cuadro--titulo {
-        font-size: var(--text-small);
-        padding: var(--spacing-xsmall);
+        font-size: 1.4em;
+        padding: 1rem;
     }
 
     /* footer */
     footer {
-        font-size: var(--text-small);
+        font-size: 1.4em;
     }
 
     footer div ul li {
@@ -343,7 +317,7 @@ footer div ul li {
     }
 
     nav {
-        background-color: var(--backgroun);
+        background-color: #1d0304;
     }
 
     .menusuperior {
@@ -370,13 +344,13 @@ footer div ul li {
     }
 
     .cuadros__cuadro h2 {
-        font-size: var(--spacing-medium);
-        padding: var(--spacing-small)
+        font-size: 2.4rem;
+        padding: 2rem;
     }
 
     .cuadros__cuadro p {
-        font-size: var(--text-small);
-        margin-bottom: var(--spacing-xsmall);
+        font-size: 1.4em;
+        margin-bottom: 1rem;
     }
 
     .cuadros__cuadro div img {
@@ -423,17 +397,17 @@ footer div ul li {
     }
 
     .productos__cuadro {
-        margin: var(--spacing-xsmall);
-        padding: var(--spacing-xsmall)
+        margin: 1rem;
+        padding: 1rem;
     }
 
     .productos__cuadro--img {
-        padding: var(--spacing-xsmall);
+        padding: 1rem;
     }
 
     .productos__cuadro--titulo {
-        font-size: var(--text-small);
-        padding: var(--spacing-xsmall);
+        font-size: 1.4em;
+        padding: 1rem;
     }
 
     /* footer */
@@ -456,7 +430,7 @@ footer div ul li {
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
-        gap: var(--spacing-medium)
+        gap: 2.4rem;
     }
 
     .division3 {
