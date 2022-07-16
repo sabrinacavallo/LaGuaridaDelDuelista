@@ -90,21 +90,23 @@ img {
     transform: translate3d(0, -4px, 0); } }
 
 /* sección nav */
-menusuperior {
+.menusuperior {
   background-color: black;
   padding: 1.8rem;
   justify-content: center;
   display: flex;
   gap: 6rem;
   margin: 0%; }
-  menusuperior .menusuperior__link {
-    font-size: 1.4em;
-    padding: 1rem 1.2rem;
-    border: 2px solid #000000;
-    transition: all 1s; }
-    menusuperior .menusuperior__link:hover {
-      border-color: #ffffff;
-      color: #ffffff; }
+
+.menusuperior__link {
+  font-size: 1.4em;
+  padding: 1rem 1.2rem;
+  border: 2px solid #000000;
+  transition: all 1s; }
+
+.menusuperior__link:hover {
+  border-color: #ffffff;
+  color: #ffffff; }
 
 /* ------------------VIEW - HOME------------------ */
 /* sección main */
