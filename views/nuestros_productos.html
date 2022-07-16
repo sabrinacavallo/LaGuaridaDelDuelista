@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shotcut icon" href="../assets/img/Logo.PNG">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CSS Bootstrap only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -16,7 +18,7 @@
 <body>
     <header id="arriba" class="container-fluid">
         <section class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="col-sm-12 col-md-3 col-lg-3 bounce">
                 <a href="../index.html"><img class="img-fluid" src="../assets/img/LogoLGDD.png"
                         alt="Logo de la Guarida del Duelista"></a>
             </div>
@@ -94,39 +96,39 @@
     <main>
         <h1>Inicio > Nuestros Productos</h1>
         <section class="productos">
-            <div class="productos__cuadro">
+            <div class="productos__cuadro" data-aos="fade-up-right">
                 <img class="productos__cuadro--img" src="../assets/img/mat+masquerena+sleeves(1).jpeg"
                     alt="mat+masquerena+sleeves">
                 <p class="productos__cuadro--titulo">Productos YU-GI-OH! Kuriboh Kollection combo:</p>
                 <p class="productos__cuadro--info">Mat + Portfolio + Sleeves</p>
                 <p class="productos__cuadro--precio">$1500.-</p>
             </div>
-            <div class="productos__cuadro">
+            <div class="productos__cuadro" data-aos="flip-up">
                 <img class="productos__cuadro--img" src="../assets/img/mat+masquerena+sleeves(2).jpeg"
                     alt="mat+masquerena+sleeves">
                 <p class="productos__cuadro--titulo">Productos YU-GI-OH! Masquerena combo:</p>
                 <p class="productos__cuadro--info">Mat + Portfolio + Sleeves</p>
                 <p class="productos__cuadro--precio">$1500.-</p>
             </div>
-            <div class="productos__cuadro">
+            <div class="productos__cuadro" data-aos="fade-up-left">
                 <img class="productos__cuadro--img" src="../assets/img/pocketpages.jpeg" alt="pocketpage">
                 <p class="productos__cuadro--titulo">Hologram 9 Pocket Pages:</p>
                 <p class="productos__cuadro--info">Por unidad</p>
                 <p class="productos__cuadro--precio">$200.-</p>
             </div>
-            <div class="productos__cuadro">
+            <div class="productos__cuadro" data-aos="fade-up-right">
                 <img class="productos__cuadro--img" src="../assets/img/mazocardsmagic.jpeg" alt="mazocardsmagic">
                 <p class="productos__cuadro--titulo">Mazo MAGIC Dragon Shield:</p>
                 <p class="productos__cuadro--info">Por 60 unidades (Matte)</p>
                 <p class="productos__cuadro--precio">$800.-</p>
             </div>
-            <div class="productos__cuadro">
+            <div class="productos__cuadro" data-aos="flip-up">
                 <img class="productos__cuadro--img" src="../assets/img/sleeves.jpeg" alt="sleeves">
                 <p class="productos__cuadro--titulo">Productos YU-GI-OH! Kuriboh Kollection:</p>
                 <p class="productos__cuadro--info">Pack por 50 Sleeves</p>
                 <p class="productos__cuadro--precio">$300.-</p>
             </div>
-            <div class="productos__cuadro">
+            <div class="productos__cuadro" data-aos="fade-up-left">
                 <img class="productos__cuadro--img" src="../assets/img/fundamazo.jpeg" alt="fundamazo">
                 <p class="productos__cuadro--titulo">Accesorio porta Mazo:</p>
                 <p class="productos__cuadro--info">Cuero ecológico. Por unidad</p>
@@ -184,6 +186,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
