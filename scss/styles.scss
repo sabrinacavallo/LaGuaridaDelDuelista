@@ -1,4 +1,6 @@
 @import "variables";
+@import './views/clasificacion';
+
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 * {
@@ -371,11 +373,11 @@ iframe {
 
 /* ------------------VIEW - CLASIFICACION TORNEOS------------------ */
 
-.centrar__tabla {
+/* .centrar__tabla {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 
 /* ----------MEDIA---------- */
@@ -571,11 +573,11 @@ iframe {
 
     /* ---CLASIFICACION TORNEOS--- */
 
-    .centrar__tabla {
+    /*     .centrar__tabla {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     /* footer */
 
