@@ -9,14 +9,14 @@
     <!-- CSS Bootstrap only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylesviejo.css">
     <title>La Guarida del Duelista - Contacto</title>
 </head>
 
 <body>
     <header id="arriba" class="container-fluid">
         <section class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3 bounce">
+            <div class="col-sm-12 col-md-3 col-lg-3 bounce header__logo">
                 <a href="../index.html"><img class="img-fluid" src="../assets/img/LogoLGDD.png"
                         alt="Logo de la Guarida del Duelista"></a>
             </div>
@@ -59,7 +59,7 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="./nuestros_productos.html">Nuestros Productos</a>
@@ -72,7 +72,7 @@
                                         Torneos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                    <a class="nav-link active" href="./contacto.html">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -93,10 +93,10 @@
     <!--contenido principal o de relevancia. La imagen de fondo la agrego en css-->
     <main>
         <h1>Inicio > Contacto</h1>
-        <section class="contacto__top">
+        <section class="contacto__top mt-3 mb-5">
             <ul class="contacto__top--ubicacion">
                 <li>
-                    <p> Visitanos en nuestra tienda:</p>
+                    <p>Visitanos en nuestra tienda:</p>
                     <p>Av. Presidente Perón 1805,</p>
                     <p>Villa Mercedes (San Luis) AR</p>
                 </li>
@@ -105,7 +105,7 @@
                     <p>Martes a Viernes de 10 a 20 hs.</p>
                     <p>Sábados y Domingos de 15 a 20 hs.</p>
                 </li>
-                <li> Teléfono:
+                <li>Teléfono:
                     2657-714203
                 </li>
             </ul>
@@ -113,12 +113,11 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.788006195089!2d-65.44900478595194!3d-33.66265448071363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d16a5c91eb20b7%3A0x5d71b66e4a25428f!2sPres.%20Juan%20Domingo%20Per%C3%B3n%201805%2C%20Villa%20Mercedes%2C%20San%20Luis%2C%20Argentina!5e0!3m2!1ses-419!2snz!4v1654669495586!5m2!1ses-419!2snz"
                 width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="pulse">
-                <img class="contacto__top--img" src="../assets/img/fotodelatienda.jpeg" alt="Foto de la Tienda"
-                    width="300" height="400">
+            <div class="pulse contacto__top--img m-0 p-5">
+                <img src="../assets/img/fotodelatienda.jpeg" alt="Foto de la Tienda">
             </div>
         </section>
-        <div class="container-fluid">
+        <div class="formulario">
             <form class="col-sm-12 col-md-6 col-lg-4 ms-4 mb-4" action="#">
                 <input class="row my-2 form-control" type="text" name="nombre" id="nombre" placeholder="Nombre"
                     required>
@@ -139,10 +138,10 @@
                 <!--Texarea-->
                 <textarea class="row my-3 form-control" name="comentario" id="comentario" cols="60" rows="10"
                     minlength="10" placeholder="Escribe tu mensaje"></textarea>
-                    <div class="d-grid gap-2">
-                <input class="btn btn-primary btn-lg btn-dark" type="reset" value="Limpiar mensaje">
-                <input class="btn btn-primary btn-lg btn-dark" type="submit" value="Enviar mensaje">
-            </div>
+                <div class="d-grid gap-2">
+                    <input class="btn btn-primary btn-lg btn-dark" type="reset" value="Limpiar mensaje">
+                    <input class="btn btn-primary btn-lg btn-dark" type="submit" value="Enviar mensaje">
+                </div>
             </form>
         </div>
         <a href="#arriba" class="linktop">Ir arriba</a>
