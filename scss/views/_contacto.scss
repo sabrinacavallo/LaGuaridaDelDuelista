@@ -1,0 +1,31 @@
+/* ------------------VIEW - CONTACTO------------------ */
+main {
+    .contacto__top {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &--ubicacion {
+            font-size: $font__extra;
+            margin: 3rem;
+            background: #752e2ea1;
+
+            li {
+                padding: 1.5rem;
+            }
+        }
+
+        &--img {
+            width: 32rem;
+        }
+
+        iframe {
+            margin: 6%;
+        }
+    }
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+}

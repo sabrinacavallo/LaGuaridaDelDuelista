@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shotcut icon" href="../assets/img/Logo.PNG">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="keywords" content="cartas MAGIC, cartas yu-gi-oh!, juegos mesa, boardgames, cartas originales, mazo MAGIC, mazo yu-gi-oh, card game>
+    <meta name=" description"
+        content="Encuentra todos los productos originales de MAGIC Arena y YU-GI-OH!. Acércate a nuestra tienda para conseguir los mejores precios y atención personalizada.">
+    <!-- animaciones -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CSS Bootstrap only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/stylesviejo.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>La Guarida del Duelista - Nuestros Productos</title>
 </head>
 
 <body>
+    <!-- header -->
     <header id="arriba" class="container-fluid">
         <section class="row">
             <div class="col-sm-12 col-md-3 col-lg-3 bounce header__logo">
@@ -48,6 +53,7 @@
                 </div>
             </div>
         </section>
+        <!-- nav mobile -->
         <section class="row">
             <div class="col-sm-12 mb-4 d-md-none d-lg-none">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -81,6 +87,7 @@
                     </div>
                 </nav>
         </section>
+        <!-- nav desktop -->
         <section class="row">
             <ul class="menusuperior col-md-12 col-lg-12">
                 <li><a class="menusuperior__link" href="../index.html">Inicio</a></li>
@@ -92,9 +99,10 @@
             </ul>
         </section>
     </header>
-    <!--contenido principal o de relevancia. La imagen de fondo la agrego en css-->
+    <!--contenido principal o de relevancia-->
     <main>
-        <h1>Inicio > Nuestros Productos</h1>
+        <h1><a href="../index.html">Inicio</a> > Nuestros Productos</h1>
+        <!-- cuadros con productos -->
         <section class="productos">
             <div class="productos__cuadro" data-aos="flip-up">
                 <img class="productos__cuadro--img" src="../assets/img/mat+masquerena+sleeves(1).jpeg"
@@ -135,8 +143,8 @@
                 <p class="productos__cuadro--precio">$400.-</p>
             </div>
         </section>
-        <a href="#arriba" class="linktop">Ir arriba</a>
 
+        <a href="#arriba" class="linktop">Ir arriba</a>
     </main>
 
     <!--pie de pagina con links de redes sociales-->
@@ -146,14 +154,18 @@
                 <img class="mt-2" src="../assets/img/LaGuaridaDelDuelista-letrero.PNG"
                     alt="Letrero La guarida del duelista">
                 <ul class="division1">
-                    <li class="fs-4 my-5">&#9735; Av. Presidente Perón 1805, Villa Mercedes (SL) 🇦🇷</li>
-                    <li class="fs-4 my-5">&#9743; 2657-714203</li>
-                    <li class="fs-4 my-5 text-nowrap">&#9993; LaGuaridaDelDuelista@gmail.com</li>
+                    <li class="my-5">&#9735; <a
+                            href="https://www.google.com/maps/place/Pres.+Juan+Domingo+Per%C3%B3n+1805,+Villa+Mercedes,+San+Luis,+Argentina/@-33.6627131,-65.4490264,17z/data=!3m1!4b1!4m5!3m4!1s0x95d16a5c91eb20b7:0x5d71b66e4a25428f!8m2!3d-33.6627176!4d-65.4468377"
+                            target="_blank">Av. Presidente Perón 1805, Villa Mercedes (SL) 🇦🇷</a></li>
+                    <li class="my-5">&#9743; <a href="https://wa.me/+5492657714203" target="_blank">2657-714203</a>
+                    </li>
+                    <li class="my-5 text-nowrap">&#9993; <a href="mailto:laguaridadelduelista@gmail.com"
+                            target="_blank">LaGuaridaDelDuelista@gmail.com</a></li>
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 division2">
+            <div class="col-sm-12 col-md-2 col-lg-2 division2">
                 <ul class="iconos__redes text-center">
-                    <li class="my-3"><a href="https://web.whatsapp.com/" target="_blank"><span class="iconify"
+                    <li class="my-3"><a href="https://wa.me/+5492657714203" target="_blank"><span class="iconify"
                                 data-icon="ri:whatsapp-fill" data-width="35"></span></a>
                     </li>
                     <li class="my-3"><a href="https://www.instagram.com/laguaridadelduelista/?hl=es"
@@ -169,10 +181,26 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <h3 class="fs-1 my-4 fw-bold">Horarios</h3>
-                <p class="fs-4 my-5">Martes a Viernes de 10 a 20 hs.</p>
-                <p class="fs-4 my-5">Sábados y Domingos de 15 a 20 hs.</p>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <h3 class="horario my-4 fw-bold">Horarios</h3>
+                <p class="horario__cont my-5">Martes a Viernes de 10 a 20 hs.</p>
+                <p class="horario__cont my-5">Sábados y Domingos de 15 a 20 hs.</p>
+            </div>
+            <!-- mapa del sitio -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <ul class="menuinferior">
+                    <li class="my-4"><a class="menuinferior__link" href="../index.html">Inicio</a></li>
+                    <li class="my-4"><a class="menuinferior__link" href="./nuestros_productos.html">Nuestros
+                            Productos</a>
+                    </li>
+                    <li class="my-4"><a class="menuinferior__link" href="./torneos_y_eventos.html">Torneos y
+                            Eventos</a>
+                    </li>
+                    <li class="my-4"><a class="menuinferior__link" href="./clasificacion_torneos.html">Clasificación
+                            Torneos</a>
+                    </li>
+                    <li class="my-4"><a class="menuinferior__link" href="./contacto.html">Contacto</a></li>
+                </ul>
             </div>
         </section>
         <div class="row">

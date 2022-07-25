@@ -1,16 +1,8 @@
 /* ------------------VIEW - CLASIFICACION TORNEOS------------------ */
 .centrar {
     &__tabla {
-        width: $porcentaje__l;
+        width: $percentage__l;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-
-@media screen and (max-width:730px) {
-    .centrar {
-        &__tabla {
-            width: $porcentaje__xxl;
-        }
     }
 }

@@ -1,0 +1,288 @@
+/* ----------MEDIA---------- */
+
+@media (min-width:1441px) and (max-width:2561px) {
+
+    /* header */
+    /* nav */
+    .menusuperior__link {
+        font-size: $space__m;
+    }
+
+    /* ---HOME--- */
+    /* main */
+    .cuadros__cuadro {
+        h2 {
+            font-size: $space__xl;
+            padding: $space__s;
+        }
+
+        p {
+            font-size: $space__s;
+        }
+
+        .logo {
+            width: $percentage__m;
+        }
+    }
+
+    /* ---NUESTROS PRODUCTOS--- */
+    /* main */
+    .productos__cuadro {
+        margin: $space__m;
+        padding: $space__m;
+
+        &--titulo {
+            font-size: $space__m;
+            padding: $space__s;
+        }
+
+        &--info {
+            font-size: $space__s;
+        }
+
+        &--precio {
+            font-size: $space__l;
+        }
+    }
+
+    /* ---TORNEOS Y EVENTOS--- */
+    /* main */
+    .card-text {
+        font-size: $font__extra;
+    }
+
+    /* ---CONTACTO--- */
+    /* main */
+
+    .contacto__top--ubicacion {
+        font-size: $space__s;
+    }
+
+    .formulario form {
+        font-size: $space__s;
+
+        input {
+            font-size: $space__s;
+        }
+
+        select {
+            font-size: $space__s;
+        }
+
+        textarea {
+            font-size: $space__s;
+        }
+    }
+
+    /* footer */
+    footer,
+    .division1,
+    .horario__cont,
+    .menuinferior {
+        font-size: $space__s;
+    }
+
+    .horario {
+        font-size: 2.6em;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    /* header */
+    /* nav */
+    .menusuperior {
+        gap: $space__xs;
+    }
+
+    /* ---HOME--- */
+    /* main */
+    .cuadros__cuadro {
+        h2 {
+            font-size: $space__m;
+            padding: $space__s;
+        }
+
+        p {
+            font-size: $font__small;
+        }
+    }
+
+    /* ---NUESTROS PRODUCTOS--- */
+    /* main */
+    .productos__cuadro {
+        margin: $space__s;
+        padding: $space__s;
+
+        &--img {
+            padding: $space__xs;
+        }
+
+        &--titulo {
+            font-size: $font__base;
+            padding: $space__xs;
+        }
+    }
+
+    /* ---TORNEOS Y EVENTOS--- */
+    /* main */
+    .card-text {
+        font-size: 0.9em;
+        font-weight: 90;
+    }
+
+    /* ---CONTACTO--- */
+    /* main */
+    .contacto__top--ubicacion {
+        font-size: $font__link;
+    }
+}
+
+
+@media screen and (max-width:730px) {
+
+    /* header */
+    .header__logo {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    /* nav */
+    .menusuperior {
+        display: none;
+    }
+
+    /* ---HOME--- */
+    /* main */
+    .cuadros__cuadro {
+        &:nth-of-type(1) {
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+
+        &:nth-of-type(2) {
+            grid-column: 1/13;
+            grid-row: 2/3;
+        }
+
+        &:nth-of-type(3) {
+            grid-column: 1/13;
+            grid-row: 3/4;
+        }
+
+        h2 {
+            font-size: $space__m;
+            padding: $space__s;
+        }
+
+        p {
+            font-size: $font__base;
+            margin-bottom: $space__xs;
+        }
+
+        div img {
+            width: $percentage__l;
+            margin: $space__xs;
+        }
+    }
+
+    /* ---NUESTROS PRODUCTOS--- */
+    /* main */
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        &__cuadro {
+            margin: $space__xs;
+            padding: $space__xs;
+
+            &:nth-of-type(1) {
+                grid-column: 1/7;
+                grid-row: 1/2;
+            }
+
+            &:nth-of-type(2) {
+                grid-column: 7/13;
+                grid-row: 1/2;
+            }
+
+            &:nth-of-type(3) {
+                grid-column: 1/7;
+                grid-row: 2/3;
+            }
+
+            &:nth-of-type(4) {
+                grid-column: 7/13;
+                grid-row: 2/3;
+            }
+
+            &:nth-of-type(5) {
+                grid-column: 1/7;
+                grid-row: 3/4;
+            }
+
+            &:nth-of-type(6) {
+                grid-column: 7/13;
+                grid-row: 3/4;
+            }
+
+            &--img {
+                padding: $space__xs;
+            }
+
+            &--titulo {
+                font-size: $font__base;
+                padding: $space__xs;
+            }
+
+            &--info {
+                font-size: small;
+            }
+        }
+    }
+
+    /* ---TORNEOS Y EVENTOS--- */
+    .secciones__margenes {
+        margin: 8%;
+    }
+
+    /* ---CLASIFICACION TORNEOS--- */
+    .centrar {
+        &__tabla {
+            width: $percentage__xxl;
+        }
+    }
+
+    /* ---CONTACTO--- */
+    /* main */
+    .contacto__top--ubicacion {
+        font-size: $font__base;
+    }
+
+    /* footer */
+    .iconos__redes {
+        display: flex;
+        margin: 7%;
+        padding-left: 0%;
+        justify-content: space-around;
+    }
+
+    .horario,
+    .horario__cont,
+    .menuinferior {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .menuinferior {
+        border-top: 2px solid $color__back;
+        border-left: none;
+    }
+}
