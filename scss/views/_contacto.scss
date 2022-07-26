@@ -1,8 +1,7 @@
 /* ------------------VIEW - CONTACTO------------------ */
 main {
     .contacto__top {
-        display: flex;
-        justify-content: space-evenly;
+        @include flex(space-evenly);
         flex-wrap: wrap;
 
         &--ubicacion {
@@ -25,7 +24,6 @@ main {
     }
 
     .formulario {
-        display: flex;
-        justify-content: center;
+        @include flex(center);
     }
 }

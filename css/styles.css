@@ -65,6 +65,7 @@ body {
       font-size: 1.8em;
       padding: 2.4rem; }
 
+/* MIXINS */
 /* LAYOUTS-HEADER */
 /* Logo */
 .bounce:hover {
@@ -130,10 +131,10 @@ body {
 
 /* sección nav */
 .menusuperior {
+  display: flex;
+  justify-content: center;
   background-color: #000000;
   padding: 1.8rem;
-  justify-content: center;
-  display: flex;
   gap: 6rem;
   margin: 0%; }
   .menusuperior__link {
@@ -174,9 +175,9 @@ body {
       margin-bottom: 1rem; }
     .cuadros__cuadro .logo {
       display: flex;
+      justify-content: center;
       margin: auto;
-      width: 80%;
-      justify-content: center; }
+      width: 80%; }
 
 /* ------------------VIEW - NUESTROS PRODUCTOS------------------ */
 .productos {
@@ -431,9 +432,9 @@ footer,
   /* footer */
   .iconos__redes {
     display: flex;
+    justify-content: space-around;
     margin: 7%;
-    padding-left: 0%;
-    justify-content: space-around; }
+    padding-left: 0%; }
   .horario,
   .horario__cont,
   .menuinferior {

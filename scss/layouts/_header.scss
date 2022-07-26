@@ -83,10 +83,9 @@
 /* sección nav */
 
 .menusuperior {
+    @include flex(center);
     background-color: $color__back;
     padding: 1.8rem;
-    justify-content: center;
-    display: flex;
     gap: $space__xl;
     margin: 0%;
 

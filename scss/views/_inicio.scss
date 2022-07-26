@@ -37,10 +37,9 @@
         }
 
         .logo {
-            display: flex;
+            @include flex(center);
             margin: auto;
             width: $percentage__xl;
-            justify-content: center;
         }
     }
 }

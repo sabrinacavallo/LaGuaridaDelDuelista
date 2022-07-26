@@ -268,10 +268,9 @@
 
     /* footer */
     .iconos__redes {
-        display: flex;
+        @include flex(space-around);
         margin: 7%;
         padding-left: 0%;
-        justify-content: space-around;
     }
 
     .horario,

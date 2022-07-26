@@ -6,8 +6,7 @@ section {
     }
 
     .secciones {
-        display: flex;
-        justify-content: space-evenly;
+        @include flex(space-evenly);
         flex-wrap: wrap;
     }
 }
