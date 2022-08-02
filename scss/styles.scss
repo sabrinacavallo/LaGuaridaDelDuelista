@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-// UTILIDADES = VARIABLES, MIXIN, FUNCIONES
+// UTILIDADES = VARIABLES, MIXIN
 @import 'utilities/variables';
-@import 'utilities/animations';
+@import 'utilities/operator';
 /* BASE = RESET, TIPOGRAFIAS */
 @import 'base/reset';
-/* MIXINS */
-@import 'utilities/mixins';
+/* ANIMATIONS */
+@import 'utilities/animations';
 /* LAYOUTS-HEADER */
 @import 'layouts/header';
 /* VIEWS = CODIGO PARTICIONADO DE CADA SECCION/PAGE/VIEW */
