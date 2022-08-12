@@ -137,12 +137,16 @@
         </section>
         <!-- formulario de contacto -->
         <div class="formulario">
-            <form class="col-sm-12 col-md-6 col-lg-4 ms-4 mb-4" action="#">
-                Nombre:<input class="row my-2 form-control" type="text" name="nombre" id="nombre" placeholder="Nombre"
-                    required>
-                Email:<input class="row my-2 form-control" type="email" name="correo" id="correo" placeholder="Email"
-                    required>
-                Teléfono:<input class="row my-2 form-control" type="text" name="num" id="num" placeholder="Teléfono"
+            <form class="col-sm-12 col-md-6 col-lg-4 ms-4 mb-4"
+                action="https://formsubmit.co/laguaridadelduelista@gmail.com" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input class="row my-2 form-control" type="text" name="nombre" id="nombre"
+                    placeholder="Ingresa tu Nombre" required>
+                <label for="correo">Email:</label>
+                <input class="row my-2 form-control" type="email" name="correo" id="correo"
+                    placeholder="Ingresa tu Email" required>
+                <label for="num">Teléfono:</label>
+                <input class="row my-2 form-control" type="text" name="num" id="num" placeholder="Ingresa tu Teléfono"
                     required>
                 <!--Menu desplegable-->
                 <select class="row my-2 form-control" name="motivo" id="motivo">
@@ -155,6 +159,9 @@
                 </select>
                 <!--Checkbox-->
                 <input type="checkbox" name="cbox"> Deseo recibir el Newsletter </input>
+                <!-- Opciones ocultas -->
+                <input type="hidden" name="_autoresponse"
+                    value="¡Gracias por escribirnos! Pronto estaremos respondiendo tus consultas.">
                 <!--Texarea-->
                 <textarea class="row my-3 form-control" name="comentario" id="comentario" cols="60" rows="10"
                     minlength="10" placeholder="Escribe tu mensaje"></textarea>

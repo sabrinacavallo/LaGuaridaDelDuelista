@@ -41,11 +41,16 @@ body {
 
         h1 {
             padding: $space__s;
+            text-shadow: 4px 4px 4px $color__extra;
         }
 
         .linktop {
             font-size: $font__extra;
             padding: $space__m;
+        }
+
+        h2 {
+            text-shadow: 4px 4px 4px $color__back;
         }
     }
 }

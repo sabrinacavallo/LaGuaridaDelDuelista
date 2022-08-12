@@ -6,7 +6,7 @@
     grid-template-rows: repeat(3, 1fr);
 
     &__cuadro {
-        background-color: #752e2ea1;
+        background-color: $color__extra;
         text-align: center;
         margin: $space__l;
         padding: $space__m;

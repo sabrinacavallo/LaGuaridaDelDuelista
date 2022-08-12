@@ -1,36 +1,48 @@
-<h1>La Guarida Del Duelista</h1>
+#La Guarida Del Duelista
 
-<h2>Web de torneos y tienda de productos oficiales MAGIC y Yu-Gi-Oh!</h2>
+###Web de torneos y tienda de productos oficiales MAGIC y Yu-Gi-Oh!
+<br>
+<br>
 
-<h3>INFORMACIÓN GENERAL</h3>
-<p>En esta web encontraras todos los productos relacionados con MAGIC, Yu-Gi-Oh! y más. También podrás inscribirte a torneos y competencias nacionales, o sumarte a las tardes de juegos de mesa en el local.</p>
+##INFORMACIÓN GENERAL
+> En esta web encontraras todos los productos relacionados con MAGIC, Yu-Gi-Oh! y más. También podrás inscribirte a torneos y competencias nacionales, o sumarte a las tardes de juegos de mesa en el local.
+<br>
 
-<p>Mediante el formulario en la view "Contacto" se genera el vínculo con el futuro cliente.</p>
+> Mediante el formulario en la view "Contacto" se genera el vínculo con el futuro cliente.
+<br>
 
-<p>El sitios es completamente responsive para formato desktop, tablet y mobile.</p>
+> El sitios es completamente responsive para formato desktop, tablet y mobile.
+<br>
+<br>
 
-<h3>VIEWS</h3>
-<h4>Inicio:</h4>
-<p>Breve muestra de las cualidades con que cuenta la tienda.</p>
+##VIEWS
+###Inicio:
+Breve muestra de las cualidades con que cuenta la tienda.
 <img src="./assets/imgviews/inicio.jpg" alt="view inicio">
+<br>
 
-<h4>Nuestros Productos:</h4>
-<p>Disposición de fotos, detalles y precio de los productos de la tienda.</p>
+###Nuestros Productos:
+Disposición de fotos, detalles y precio de los productos de la tienda.
 <img src="./assets/imgviews/nuestrosproductos.jpg" alt="view nuestros productos">
+<br>
 
-<h4>Torneos y Eventos:</h4>
-<p>Calendario de torneos y promoción con detalle de próximos eventos.</p>
+###Torneos y Eventos:
+Calendario de torneos y promoción con detalle de próximos eventos.
 <img src="./assets/imgviews/torneosyeventos.jpg" alt="view torneos y eventos">
+<br>
 
-<h4>Clasificación Torneos:</h4>
-<p>Tabla de posiciones de jugadores en relación a tipo de torneo.</p>
+###Clasificación Torneos:
+Tabla de posiciones de jugadores en relación a tipo de torneo.
 <img src="./assets/imgviews/clasificaciontorneos.jpg" alt="view clasificación torneos">
+<br>
 
-<h4>Contacto:</h4>
-<p>Detalles de ubicación y formulario de contacto.</p>
+###Contacto:
+Detalles de ubicación y formulario de contacto.
 <img src="./assets/imgviews/contacto.jpg" alt="view contacto">
+<br>
+<br>
 
-<h3>TECNOLOGÍAS</h3>
+##TECNOLOGÍAS
 <ul>
     <li>HTML</li>
     <li>CSS</li>
@@ -38,6 +50,7 @@
     <li>FRAMEWORK: BOOTSTRAP</li>
     <li>LIBRERÍA ANIMACIONES: AOS</li>
 </ul>
+<br>
 
-<h3>AUTOR</h3>
-<p>Sabrina Nair Cavallo</p>
+##AUTOR
+**Sabrina Nair Cavallo**

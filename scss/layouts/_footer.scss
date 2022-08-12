@@ -13,3 +13,8 @@ footer,
 .menuinferior {
     border-left: 2px solid $color__back;
 }
+
+footer {
+    padding-top: $space__m;
+    padding-bottom: $space__m;
+}
