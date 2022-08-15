@@ -5,19 +5,19 @@
     /* header */
     /* nav */
     .menusuperior__link {
-        font-size: $space__m;
+        font-size: $font__big;
     }
 
     /* ---HOME--- */
     /* main */
     .cuadros__cuadro {
         h2 {
-            font-size: $space__xl;
+            font-size: $font__big;
             padding: $space__s;
         }
 
         p {
-            font-size: $space__s;
+            font-size: $font__medium;
         }
 
         .logo {
@@ -32,16 +32,16 @@
         padding: $space__m;
 
         &--titulo {
-            font-size: $space__m;
+            font-size: $font__big;
             padding: $space__s;
         }
 
         &--info {
-            font-size: $space__s;
+            font-size: $font__medium;
         }
 
         &--precio {
-            font-size: $space__l;
+            font-size: $font__extrabig;
         }
     }
 
@@ -55,22 +55,22 @@
     /* main */
 
     .contacto__top--ubicacion {
-        font-size: $space__s;
+        font-size: $font__medium;
     }
 
     .formulario form {
-        font-size: $space__s;
+        font-size: $font__medium;
 
         input {
-            font-size: $space__s;
+            font-size: $font__medium;
         }
 
         select {
-            font-size: $space__s;
+            font-size: $font__medium;
         }
 
         textarea {
-            font-size: $space__s;
+            font-size: $font__medium;
         }
     }
 
@@ -79,7 +79,7 @@
     .division1,
     .horario__cont,
     .menuinferior {
-        font-size: $space__s;
+        font-size: $font__medium;
     }
 
     .horario {
@@ -100,7 +100,7 @@
     /* main */
     .cuadros__cuadro {
         h2 {
-            font-size: $space__m;
+            font-size: $font__big;
             padding: $space__s;
         }
 
@@ -184,8 +184,8 @@
         }
 
         h2 {
-            font-size: $space__m;
-            padding: $space__s;
+            font-size: $font__big;
+            padding: $font__medium;
         }
 
         p {

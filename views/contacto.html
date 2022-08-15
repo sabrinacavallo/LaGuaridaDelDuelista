@@ -137,8 +137,9 @@
         </section>
         <!-- formulario de contacto -->
         <div class="formulario">
+            <!-- El formulario esta vilculado a mi email personal ya que no tengo acceso al mail oficial de la tienda -->
             <form class="col-sm-12 col-md-6 col-lg-4 ms-4 mb-4"
-                action="https://formsubmit.co/laguaridadelduelista@gmail.com" method="POST">
+                action="https://formsubmit.co/sabrina_cavallo1@hotmail.com" method="POST" target="_blank">
                 <label for="nombre">Nombre:</label>
                 <input class="row my-2 form-control" type="text" name="nombre" id="nombre"
                     placeholder="Ingresa tu Nombre" required>
@@ -151,11 +152,11 @@
                 <!--Menu desplegable-->
                 <select class="row my-2 form-control" name="motivo" id="motivo">
                     <option value="">Motivo del mensaje</option>
-                    <option value="a">Solicitar inscripción a Torneo</option>
-                    <option value="b">Solicitar inscripción a Entrenamiento</option>
-                    <option value="c">Compra de productos</option>
-                    <option value="d">Consulta</option>
-                    <option value="e">Otro</option>
+                    <option value="inscripcion_torneo">Solicitar inscripción a Torneo</option>
+                    <option value="inscripcion_entrenamiento">Solicitar inscripción a Entrenamiento</option>
+                    <option value="compra">Compra de productos</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="otro">Otro</option>
                 </select>
                 <!--Checkbox-->
                 <input type="checkbox" name="cbox"> Deseo recibir el Newsletter </input>
@@ -167,7 +168,7 @@
                     minlength="10" placeholder="Escribe tu mensaje"></textarea>
                 <div class="d-grid gap-2">
                     <input class="btn btn-primary btn-lg btn-dark" type="reset" value="Limpiar mensaje">
-                    <input class="btn btn-primary btn-lg btn-dark" type="submit" value="Enviar mensaje">
+                    <input class="btn btn-primary btn-lg btn-dark" type="submit" value="Enviar mensaje" target="_blank">
                 </div>
             </form>
         </div>
@@ -178,7 +179,7 @@
     <footer class="container-fluid">
         <section class="row">
             <div class="col-sm-12 col-md-4 col-lg-4">
-                <img class="mt-2" src="../assets/img/LaGuaridaDelDuelista-letrero.jpg"
+                <img class="mt-2" src="../assets/img/LaGuaridaDelDuelista-letrero.png"
                     alt="Letrero La guarida del duelista">
                 <ul class="division1">
                     <li class="my-5">&#9735; <a

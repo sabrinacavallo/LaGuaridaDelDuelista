@@ -38,6 +38,7 @@ body {
         background-image: url(../assets/img/fondo3.jpg);
         background-repeat: none;
         background-size: cover;
+        background-attachment: fixed;
 
         h1 {
             padding: $space__s;

@@ -27,10 +27,11 @@ body {
   body main {
     background-image: url(../assets/img/fondo3.jpg);
     background-repeat: none;
-    background-size: cover; }
+    background-size: cover;
+    background-attachment: fixed; }
     body main h1 {
       padding: 2rem;
-      text-shadow: 4px 4px 4px #752e2ea1; }
+      text-shadow: 4px 4px 4px rgba(117, 46, 46, 0.631); }
     body main .linktop {
       font-size: 1.8em;
       padding: 2.4rem; }
@@ -157,7 +158,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr); }
   .cuadros__cuadro {
-    background-color: #752e2ea1;
+    background-color: rgba(117, 46, 46, 0.631);
     text-align: center;
     margin: 4rem;
     padding: 2.4rem; }
@@ -171,7 +172,7 @@ body {
       grid-column: 9/13;
       grid-row: 1/4; }
     .cuadros__cuadro h2 {
-      font-size: 2.4rem;
+      font-size: 2.4em;
       padding: 6rem; }
     .cuadros__cuadro p {
       font-size: 1.4em;
@@ -190,7 +191,7 @@ body {
   .productos__cuadro {
     display: flex;
     flex-direction: column;
-    background-color: #752e2ea1;
+    background-color: rgba(117, 46, 46, 0.631);
     text-align: center;
     margin: 4rem;
     padding: 2.4rem; }
@@ -225,7 +226,7 @@ body {
 
 /* ------------------VIEW - TORNEOS Y EVENTOS------------------ */
 section .card {
-  background: #752e2ea1; }
+  background: rgba(117, 46, 46, 0.631); }
 
 section .secciones {
   display: flex;
@@ -246,7 +247,7 @@ main .contacto__top {
   main .contacto__top--ubicacion {
     font-size: 1.8em;
     margin: 3rem;
-    background: #752e2ea1; }
+    background: rgba(117, 46, 46, 0.631); }
     main .contacto__top--ubicacion li {
       padding: 1.5rem; }
   main .contacto__top--img {
@@ -282,14 +283,14 @@ footer {
   /* header */
   /* nav */
   .menusuperior__link {
-    font-size: 2.4rem; }
+    font-size: 2.4em; }
   /* ---HOME--- */
   /* main */
   .cuadros__cuadro h2 {
-    font-size: 6rem;
+    font-size: 2.4em;
     padding: 2rem; }
   .cuadros__cuadro p {
-    font-size: 2rem; }
+    font-size: 2em; }
   .cuadros__cuadro .logo {
     width: 50%; }
   /* ---NUESTROS PRODUCTOS--- */
@@ -298,12 +299,12 @@ footer {
     margin: 2.4rem;
     padding: 2.4rem; }
     .productos__cuadro--titulo {
-      font-size: 2.4rem;
+      font-size: 2.4em;
       padding: 2rem; }
     .productos__cuadro--info {
-      font-size: 2rem; }
+      font-size: 2em; }
     .productos__cuadro--precio {
-      font-size: 4rem; }
+      font-size: 4em; }
   /* ---TORNEOS Y EVENTOS--- */
   /* main */
   .card-text {
@@ -311,21 +312,21 @@ footer {
   /* ---CONTACTO--- */
   /* main */
   .contacto__top--ubicacion {
-    font-size: 2rem; }
+    font-size: 2em; }
   .formulario form {
-    font-size: 2rem; }
+    font-size: 2em; }
     .formulario form input {
-      font-size: 2rem; }
+      font-size: 2em; }
     .formulario form select {
-      font-size: 2rem; }
+      font-size: 2em; }
     .formulario form textarea {
-      font-size: 2rem; }
+      font-size: 2em; }
   /* footer */
   footer,
   .division1,
   .horario__cont,
   .menuinferior {
-    font-size: 2rem; }
+    font-size: 2em; }
   .horario {
     font-size: 2.6em; } }
 
@@ -337,7 +338,7 @@ footer {
   /* ---HOME--- */
   /* main */
   .cuadros__cuadro h2 {
-    font-size: 2.4rem;
+    font-size: 2.4em;
     padding: 2rem; }
   .cuadros__cuadro p {
     font-size: 1.1em; }
@@ -387,8 +388,8 @@ footer {
     grid-column: 1/13;
     grid-row: 3/4; }
   .cuadros__cuadro h2 {
-    font-size: 2.4rem;
-    padding: 2rem; }
+    font-size: 2.4em;
+    padding: 2em; }
   .cuadros__cuadro p {
     font-size: 1.4em;
     margin-bottom: 1rem; }
